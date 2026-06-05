@@ -1,0 +1,22 @@
+[project]
+name = "rag-chatbot"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "bert-score>=0.3.13",
+    "boto3>=1.43.14",
+    "boto3-stubs~=1.43.14",
+    "botocore>=1.43.14",
+    "faiss-cpu>=1.14.2",
+    "fastapi>=0.136.3",
+    "fitz>=0.0.1.dev2",
+    "gtts>=2.5.4",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "pillow>=12.2.0",
+    "rank-bm25>=0.2.2",
+    "rouge-score>=0.1.2",
+    "sentence-transformers>=5.5.1",
+    "spacy>=3.8.13",
+    "streamlit>=1.57.0",
+]
